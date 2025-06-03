@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+color-primary:#c1dcdc;
+font-primary:"poppins", sens-serief;
+}
+*{
+	padding: 0px;
+	margin:0px;
+	box-sizing: border-box;
+}
+body{
+	
+font-size: 14px;
+	font-family: var('---font-primary');
+	
+	
+}
+ul{
+	
+	list-style: none;
+}
+a{
+	
+	text-decoration: none;
+	font-size: 20px;
+}
+.container{
+max-width: 1140px;
+	margin: 0 auto;
+		padding:0 15px;
+	
+	
+}
+.section{
+
+	padding-top: 100px;
+}
+/*---nav*/
+.nav{
+width: 100%;
+	height: 100px;
+	
+}
+.nav-container{
+width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.nav-left{
+display: flex;
+	align-items: center;
+	
+}
+
+.nav-logo{
+font-size:30px;	
+font-family: var(-font-logo);
+color:var(--color-dark-1);
+	
+	font-weight: 700;
+}
+.nav-list{
+	
+display: flex;
+	margin-left: 30px;
+	
+}
+.nav-item{
+	margin: 0px 6px;
+	
+}
+.nav-link{
+	
+	padding: 7px 10px;
+	color:var(--color-dark-2);
+font-weight:300;
+}
+.active{
+color:var(--color-dark-1);
+
+	
+}
+.nav-icon{
+	
+	margin: 0px 0px 0px 25px;
+}
+.nav-right img{
+	width: 50px;
+	
+}
+
+
+/*----container*/
+.header-container{
+width: 100%;
+height:500px;
+background-image: url("images/banner.png");
+background-size: cover;	
+}
+
+.header-container{
+	
+	width: 100%;
+	height:500px;
+	display:grid;
+align-items: center;
+	grid-gap: 20px;
+	grid-template-columns:repeat(auto-fit, minmax(300px,1fr));
+	padding: 0px 50px;
+
+}
+.header-main-title{
+	
+	font-size: 52px;
+	font-weight:800;
+	line-height:60px;
+	
+}
+.header-items{
+	
+	
+	margin-top: 15px;
+	margin-bottom: 30px;
+	display: flex;
+}
+.header-item:not(:frist-child){
+	
+	margin-left: 30px;
+}
+.header-item-number{
+	
+font-size: 30px;	
+}
+.header-form{
+	
+	padding: 10px;
+	background-color: #f3f3f3;
+	width: 300px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-form-input{
+	padding: 7px 10px;
+	width: 250px;
+	outline: none;
+	border: none;
+	backgroun-color:#f3f3f3;
+	
+	
+}
+.header-form-icon{
+	
+	padding: 7px;
+	background-color: var(--color-primary);
+	border-radius:2px;
+}
+/* ----sectin---- */
+.selling-container{
+	width: 100%;
+	display:grid;
+	grid-gap: 20px;
+	grid-template-columns:repeat(auto-fit, minmax(170px,1fr));
+	
+	
+}
+.selling-h2{
+	font-size: 32px;
+}
+.selling-p{
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+.selling-btn{
+	padding: 12px 24px;
+	background-color:#BDEAEF;
+	color:black;
+}
+.selling-item-img{
+	width: 100%;
+	
+	
+}
+.selling-item-title{
+	
+	margin: 6px 0px;
+	font-weight: 600;
+	text-align: center;
+}
